@@ -1,0 +1,47 @@
+{
+  "name": "goo-html",
+  "version": "1.0.0",
+  "description": "Copyright for digital marketing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --inline --colors --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimbra/wpgoo-html.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "nodejs",
+    "node",
+    "wordpress"
+  ],
+  "author": "Thiago Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aimbra/wpgoo-html/issues"
+  },
+  "homepage": "https://github.com/Aimbra/wpgoo-html#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}

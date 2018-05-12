@@ -1,0 +1,203 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/buttons";
+
+@import "./navbar";
+@import "./icons";
+@import "./vars";
+@import "./buttons";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+::selection {
+    color: $gray-100;
+    background: {
+        color: $primary;
+    }
+    backdrop-filter: opacity(20%);
+}
+
+body {
+    font: {
+        family: 'Open Sans', sans-serif;
+    }
+}
+
+main {
+    margin: {
+        top: 80px;
+        bottom: 80px;
+    }
+}
+
+h1 {
+    color: #333333;
+}
+
+a {
+    font: {
+        weight: 900;
+    }
+}
+
+article {
+    section.content {
+        p {
+            font: {
+                size: 1.25rem;
+                color: #484848;
+            }
+            line: {
+                height: 2.3rem;
+            }
+            margin: {
+                top: 1rem;
+            }
+        }
+    }
+
+    h1.title, h2.subtitle {
+        text: {
+            align: center;
+        }
+        margin: {
+            top: 20px;
+            bottom: 20px;
+        }
+    }
+    
+    h1.title {
+        font: {
+            size: 4rem;
+            weight: bold;
+        }
+        line: {
+            height: 4rem;
+        }
+    }
+    
+    h2.subtitle {
+        font: {
+            size: 1.5rem;
+        }
+        color: #666666;
+    }
+
+    .auth {
+        .usernames {
+            margin: {
+                bottom: 2px;
+            }
+            font: {
+                weight: bold;
+                size: .75rem;
+            }
+            color: #979797;
+            letter-spacing: -.02rem;
+        }
+        .moment {
+            font: {
+                size: .68rem;
+            }
+            color: #999;
+            margin: 0;
+        }
+    }
+
+    figure.figure-post {
+        margin: {
+            top: 50px;
+            bottom: 50px;
+        }
+        width: 100%;
+        img {
+            width: 100%;
+            border: {
+                radius: 0.5rem;
+            }
+        }
+        .figure-description {
+            .description {
+                .fas {
+                    color: $primary;
+                }
+                span {
+                    margin: {
+                        left: .5rem;
+                    }
+                    color: #666;
+                }
+            }
+            border: {
+                bottom: {
+                    width: 1px;
+                    style: dashed;
+                    color: $gray-400;
+                }
+            }
+        }
+    }
+}
+
+.separator-social {
+    margin: 3rem auto;
+    text-align: center;
+    background: {
+        color: #fff;
+    }
+    z-index: 1;
+    padding: {
+        right: 100px;
+        left: 100px;
+    }
+    
+    .social-group {
+
+        background: {
+            color: #fff;
+        }
+        z-index: 1;
+        padding-bottom: 0;
+        border-bottom: 0;
+        ul {
+            display: inline;
+            li {
+                float: left;
+                margin: {
+                    left: 20px;
+                    right: 20px;
+                }
+            }
+        }
+    }
+
+    
+
+}
+
+.header-divider {
+    background: #e9e9e9;
+    border: 0 none;
+    display: block;
+    height: 1px;
+    margin-top: -63px;
+    width: 100%;
+    z-index: 0;
+}
+
+footer {
+    color: $gray-100;
+    margin: {
+        top: 15rem;
+    }
+    div {
+        padding: 2rem;
+    }
+}
